@@ -4,15 +4,7 @@ on:
   push:
     branches:
       - master
-  pull_request:
-    branches:
-      - master
   workflow_dispatch:
-    inputs:
-      distribution: # 定义 distribution 输入
-        description: 'Distribution option'
-        required: true
-        default: 'internal' # 设置默认值，可以根据你的需求修改
 
 jobs:
   build:
