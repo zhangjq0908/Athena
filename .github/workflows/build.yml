@@ -35,13 +35,3 @@ jobs:
         with:
           name: app-debug
           path: app/build/outputs/apk/debug/app-debug.apk
-
-      - name: Create Release
-        uses: softprops/action-gh-release@v1
-        if: github.ref == 'refs/heads/master'
-        with:
-          files: |
-            app/build/outputs/apk/debug/app-debug.apk
-          token: ${{ secrets.GITHUB_TOKEN }}
-          releaseName: Release ${{ github.sha }}
-          distribution: ${{ github.event.inputs.distribution }} # 在这里使用输入的值
