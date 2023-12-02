@@ -1,1 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: 2023 Sebastiano Barezzi
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!-- App/activity -->
+    <string name="app_name">华强北金牌讲师</string>
 
+    <!-- Permissions -->
+    <string name="permissions_not_granted">未授予权限</string>
+
+    <!-- Generic strings -->
+    <string name="yes">是</string>
+    <string name="no">否</string>
+    <string name="unknown">未知</string>
+    <string name="done">完成</string>
+
+    <!-- Device section -->
+    <string name="section_device_name">设备</string>
+    <string name="section_device_description">检查设备信息</string>
+
+    <!-- Storage section -->
+    <string name="section_storage_name">存储</string>
+    <string name="section_storage_description">存储信息</string>
+
+    <!-- Build section -->
+    <string name="section_build_name">构建</string>
+    <string name="section_build_description">检查当前Android构建信息</string>
+
+    <!-- CPU section -->
+    <string name="section_cpu_name">CPU</string>
+    <string name="section_cpu_description">CPU信息</string>
+
+    <!-- GPU section -->
+    <string name="section_gpu_name">GPU</string>
+    <string name="section_gpu_description">GPU信息</string>
+    <string name="gpu_opengl" translatable="false">OpenGL</string>
+    <string name="gpu_renderer">渲染器</string>
+    <string name="gpu_vendor">供应商</string>
+    <string name="gpu_version">版本</string>
+    <string name="gpu_extensions">扩展</string>
+
+    <!-- Display section -->
+    <string name="section_display_name">显示</string>
+    <string name="section_display_description">屏幕和GPU信息</string>
+
+    <!-- Wi-Fi section -->
+    <string name="section_wifi_name">Wi-Fi</string>
+    <string name="section_wifi_description">Wi-Fi功能</string>
+
+    <!-- Bluetooth section -->
+    <string name="section_bluetooth_name">蓝牙</string>
+    <string name="section_bluetooth_description">蓝牙功能</string>
+
+    <!-- RIL section -->
+    <string name="section_ril_name">RIL</string>
+    <string name="section_ril_description">无线接口层信息</string>
+
+    <!-- GNSS section -->
+    <string name="section_gnss_name">GNSS</string>
+    <string name="section_gnss_description">全球导航卫星系统信息</string>
+
+    <!-- Audio section -->
+    <string name="section_audio_name">音频</string>
+    <string name="section_audio_description">音频信息</string>
+
+    <!-- Camera section -->
+    <string name="section_camera_name">摄像头</string>
+    <string name="section_camera_description">摄像头信息</string>
+
+    <!-- Sensors section -->
+    <string name="section_sensors_name">传感器</string>
+    <string name="section_sensors_description">传感器信息</string>
+
+    <!-- Thermal section -->
+    <string name="section_thermal_name">热管理</string>
+    <string name="section_thermal_description">设备热管理信息</string>
+    <string name="thermal_general">常规</string>
+    <string name="thermal_status">热管理控制</string>
+    <string name="thermal_status_none">无</string>
+    <string name="thermal_status_light">轻微</string>
+    <string name="thermal_status_moderate">适中</string>
+    <string name="thermal_status_severe">严重</string>
+    <string name="thermal_status_critical">危急</string>
+    <string name="thermal_status_emergency">紧急</string>
+    <string name="thermal_status_shutdown">关机</string>
+
+    <!-- Biometrics section -->
+    <string name="section_biometrics_name">生物识别</string>
+    <string name="section_biometrics_description">生物识别信息</string>
+
+    <!-- DRM section -->
+    <string name="section_drm_name">数字版权管理</string>
+    <string name="section_drm_description">数字版权管理信息</string>
+
+    <!-- Treble section -->
+    <string name="section_treble_name">Treble</string>
+    <string name="section_treble_description">Project Treble信息</string>
+    <string name="treble_general">常规</string>
+    <string name="treble_enabled">启用Treble</string>
+    <string name="treble_vndk_version">VNDK版本</string>
+    <string name="treble_interfaces">接口</string>
+
+    <!-- Treble interface ingo dialog -->
+    <string name="treble_interface_info_dialog_title">接口</string>
+    <string name="treble_interface_info_dialog_name">名称</string>
+    <string name="treble_interface_info_dialog_transport">传输方式</string>
+    <string name="treble_interface_info_dialog_server_process_id">服务器进程ID</string>
+    <string name="treble_interface_info_dialog_address">地址</string>
+    <string name="treble_interface_info_dialog_arch">架构</string>
+    <string name="treble_interface_info_dialog_threads">线程</string>
+    <string name="treble_interface_info_dialog_released">已发布</string>
+    <string name="treble_interface_info_dialog_in_device_manifest">在设备清单中</string>
+    <string name="treble_interface_info_dialog_in_device_compatibility_matrix">在设备兼容性矩阵中</string>
+    <string name="treble_interface_info_dialog_in_framework_manifest">在框架清单中</string>
+    <string name="treble_interface_info_dialog_in_framework_compatibility_matrix">在框架兼容性矩阵中</string>
+    <string name="treble_interface_info_dialog_clients_process_ids">客户端进程ID</string>
+
+    <!-- Services section -->
+    <string name="section_services_name">服务</string>
+    <string name="section_services_description">Android初始化服务信息</string>
+
+    <!-- Props section -->
+    <string name="section_props_name">属性</string>
+    <string name="section_props_description">Android属性列表</string>
+</resources>
