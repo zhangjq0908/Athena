@@ -5,7 +5,7 @@
 -->
 <resources>
     <!-- App/activity -->
-    <string name="app_name">飞扬质检师</string>
+    <string name="app_name">系统检测</string>
 
     <!-- Permissions -->
     <string name="permissions_not_granted">未授予权限</string>
